@@ -5,7 +5,7 @@
  *
  * Return: Always (Success)
  */
-int main(viod)
+int main(void)
 {
 	int x;
 
