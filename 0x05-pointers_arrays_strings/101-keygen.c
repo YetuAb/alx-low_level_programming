@@ -30,5 +30,5 @@ int main(void)
 			break;
 		}
 	}
-	return (o);
+	return (0);
 }
