@@ -14,7 +14,7 @@ int is_prime_number(int n)
 
 	if (n <= 1)
 		return (0);
-	return (is_divisible(n, di));
+	return (is_prime_number(n, di));
 }
 
 /**
@@ -25,7 +25,7 @@ int is_prime_number(int n)
  * Return: 1 if prime, 0 otherwise
  */
 
-int is_prime(int n, int div);
+int is_prime(int n, int div)
 {
 	if (div <= 1)
 		return (1);
