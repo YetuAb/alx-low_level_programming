@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- * file: main.h
- * Desription: header file
+ * File: main.h
+ * Description: header file
  */
 
 int _putchar(char c);
